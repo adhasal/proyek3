@@ -1,0 +1,50 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 290px 100px;
+    background-color: #ffffff;
+}
+
+.grid-item {
+    background-color: white;
+    border: 5px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Hitam{
+    grid-column: 2 / span 3;
+    color: #ddd;
+}
+
+#Hijau{
+    grid-column: 1 / 1;
+}
+#Pink{
+    grid-row: 2 /span 2;
+}
+
+#Coklat{
+    grid-row: 2 / 2 / 2;
+    color: #ddd;
+}
+
+#Ungu{
+    grid-row: 2 / span 3;
+    color: #ddd;
+}
+
+#Abu {
+    grid-row: 2 / span 2;
+    grid-column: 2 / span 2;
+}
+#Orange {
+    grid-column: 2 / span 2;
+}
+
+
+
