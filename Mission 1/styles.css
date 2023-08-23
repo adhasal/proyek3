@@ -1,0 +1,18 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 290px 100px;
+    background-color: #000000;
+
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px black;
+    padding: 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
